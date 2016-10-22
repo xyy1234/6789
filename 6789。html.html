@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>案例1.3多级导航菜单</title>
+    <style>
+        /*样式重置*/
+        *{margin:0;
+        padding:0;
+        }
+        ul li{list-style:none;
+        }
+        a{text-decoration:none;
+        }
+        #menu .main-menu{
+            float:left;
+            width:120px;
+            height:30px;
+            background:gray;
+            margin-right:5px;
+        }
+        #menu .main-menu a{width:100%;
+        height:100%;
+        float:left;
+        text-align:center;
+        line-height:30px;
+        }
+        #menu .main-menu ul{background:gray;}
+    </style>
+</head>
+<body>
+<ul id="menu">
+    <li class="main-menu">
+        <a href="#">link 1</a>
+        <ul>
+            <li>
+                <a href="#">subline 1</a>
+            </li>
+            <li>
+                <a href="#">subline 2</a>
+            </li>
+            <li>
+                <a href="#">subline 3</a>
+            </li>
+        </ul>
+    </li>
+    <li class="main-menu">
+        <a href="#">link 2</a>
+        <ul>
+            <li>
+                <a href="#">subline 1</a>
+            </li>
+            <li>
+                <a href="#">subline 2</a>
+            </li>
+            <li>
+                <a href="#">subline 3</a>
+            </li>
+        </ul>
+    </li>
+    <li class="main-menu">
+        <a href="#">link 3</a>
+        <ul>
+            <li>
+                <a href="#">subline 1</a>
+            </li>
+            <li>
+                <a href="#">subline 2</a>
+            </li>
+            <li>
+                <a href="#">subline 3</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+<style></style>
+
+</body>
+</html>
